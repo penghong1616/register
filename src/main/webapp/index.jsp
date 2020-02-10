@@ -25,6 +25,7 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
 <div class="container">
     <div class="row clearfix">
         <div class="col-md-4 column">
@@ -37,7 +38,13 @@
                 </div>
                 <div class="form-group">
                     <label for="cla" style="display:inline;">班级：</label>
-                    <input type="text" class="form-control" id="cla" name="class" style="display:inline;width:100%;"autocomplete="off" />
+                     <input type="text" placeholder="19级食品1班" class="form-control" placeholder="" id="cla" name="class" style="display:inline;width:100%;"autocomplete="off" />
+                    <!--<select id="cla" class="form-control">
+                        <option>19级食品1班</option>
+                        <option>19级食品2班</option>
+                        <option>19级食品3班</option>
+                        <option>19级食品4班</option>
+                    </select>-->
                 </div>
                 <div>
                     <button type="reset" class="btn btn-primary btn-block">重置</button>

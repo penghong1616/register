@@ -6,7 +6,7 @@ public class Student {
      private int id;
      private String name;
      private String cla;
-     private Date regTime;
+     private String regTime;
 
      public int getId() {
           return id;
@@ -32,11 +32,11 @@ public class Student {
           this.cla = cla;
      }
 
-     public Date getRegTime() {
+     public String getRegTime() {
           return regTime;
      }
 
-     public void setRegTime(Date regTime) {
+     public void setRegTime(String regTime) {
           this.regTime = regTime;
      }
 }
